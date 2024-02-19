@@ -10,22 +10,22 @@
 </head>
   <body>
    
-    <section class="container border border-success border-4 mt-5" style="width: 400px;">
+    <section class="container border border-success border-4 rounded-4 mt-5" style="width: 400px;">
         <h1 class="text-center">Chat App</h1>
         <section id="login-section">
             <div class="mb-3">
-                <label class="form-label" for="username-inp">Enter your Username!</label>
+                <label class="form-label" for="username-inp">Enter your Username:</label>
                 <input id="username-inp" class="form-control" type="text" placeholder="Username">
             </div>
 
-            <button id="login-btn" class="btn btn-success btn-sm">Login</button>
+            <button id="login-btn" class="btn btn-success btn-sm m-2">Login</button>
         </section>
         <section id="chat-section">
             <ul class="list-group">
             </ul>
             <form>
-                <textarea id="text-message" class="form-control mb-3" row="5"></textarea>
-                <button type="submit" class="btn btn-sm btn-dark">Send</button>
+                <textarea id="text-message" class="form-control mb-3" row="5" placeholder="Type a message!"></textarea>
+                <button type="submit" class="btn btn-sm btn-dark m-2">Send</button>
             </form>
         </section>
     </section>

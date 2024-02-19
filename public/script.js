@@ -18,7 +18,7 @@ socket.on('received-msg', (data) => {
     const { message, username } = data;
     const li = document.createElement('li');
     li.classList.add("list-group-item", "fs-4", "mb-3", "p-2", "rounded-pill", "border-dark", "border", "border-3");
-    li.innerText = `${username} .: ${message}`;
+    li.innerText = `${username} : ${message}`;
     list.append(li);
 })
 
